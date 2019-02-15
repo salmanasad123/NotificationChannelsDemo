@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         .setAutoCancel(true)
                         .setContentTitle(title.getText().toString())
                         .setContentText(message.getText().toString())
-                        .setSmallIcon(R.drawable.ic_launcher_foreground)
+                        .setSmallIcon(R.drawable.ic_exposure_plus_1_black_24dp)
                         // set options we set in notification channel here too if we don't have api 26 (oreo)
                         .setPriority(NotificationCompat.PRIORITY_HIGH)
                         .build();
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         .setAutoCancel(true)
                         .setContentTitle(title.getText().toString())
                         .setContentText(message.getText().toString())
-                        .setSmallIcon(R.drawable.ic_launcher_background)
+                        .setSmallIcon(R.drawable.ic_exposure_plus_2_black_24dp)
                         .setPriority(NotificationCompat.PRIORITY_LOW)
                         .build();
 

@@ -11,6 +11,7 @@ public class NotificationApp extends Application {
     // before our first activity runs, eg global or static methods
     // Specialized tasks that need to run before the creation of your first activity
     //Global initialization that needs to be shared across all components (crash reporting, persistence)
+    // create channels in our application class 
 
     public static final String CHANNEL_ID_1 = "channel1";
     public static final String CHANNEL_ID_2 = "channel2";
